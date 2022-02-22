@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class MovieController {
     private List<Movie> Movies = Arrays.asList(
-            new Movie(1, "Avatar", "H1". "He1", 5),
+            new Movie(1, "Avatar", "H1". "He1", 5);
             new Movie(2, "Titanic", "H2", "He2", 5));
     
     @GetMapping
