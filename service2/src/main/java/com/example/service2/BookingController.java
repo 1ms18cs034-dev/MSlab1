@@ -16,7 +16,7 @@ public class BookingController {
             new Booking(5, 2, 500, "E", 5));
 
     @GetMapping
-    public List<Booking> getAllBookingss() {
+    public List<Booking> getAllBookings() {
         return Bookings;
     }
 
